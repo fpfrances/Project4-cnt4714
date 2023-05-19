@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1 {
+                font-family: Arial, sans-serif;
+                font-size: 34px;
+                color: #e6f516;
+            }
+            h2 {
+                font-family: Arial, sans-serif;
+                font-size: 30px;
+                color: #00ff15;
+            }
+            h3 {
+                font-family: Arial, sans-serif;
+                font-size: 24px;
+                color: #B22222;
+            }
+            label {
+                font-size: 20px;
+                color: yellow;
+                display: inline-block;
+                width: 140px;
+                }
+            .submitbutton {
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                background: #505050;
+                color: #07f61f;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <div style="text-align: center;">
+            <h1>Welcome to the Spring 2023 Project 4 Enterprise System</h1>
+            <h2>A Servlet/JSP-based Multi-tiered Enterprise Application Using A Tomcat Container</h2>
+            <h3>- User Authentication Page -</h3>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <form method="get" action="/Project4/AuthenticationServlet">
+                <div style="text-align:center;">
+                    <label for="name">UserName</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"><br><br>
+                    <br>
+                    <input type="submit" value="Click To Authenticate" class="submitbutton">
+                </div>
+            </form>
+            <br>
+            <br>
+            <hr>
+        </div>
+    </body>
+</html>
